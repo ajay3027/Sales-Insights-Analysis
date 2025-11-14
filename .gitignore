@@ -35,5 +35,6 @@ Thumbs.db
 # Large data optionally
 data_raw/
 powerbi_exports/
+powerbi/
  
 autopush.bat
