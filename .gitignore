@@ -1,0 +1,39 @@
+# Ignore Power BI temp & cache files
+*.pbip
+*.pbitool.json
+*.json.backup
+*.tmp
+~$*
+
+# Ignore Power BI autosaves
+*.pbix.autosave
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore virtual environments
+env/
+venv/
+.venv/
+
+# Ignore VS Code settings
+.vscode/
+.history/
+
+# Ignore SQL temp
+*.sqltemp
+
+# Ignore OS/system files
+Thumbs.db
+.DS_Store
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Large data optionally
+data_raw/
+powerbi_exports/
+ 
+autopush.bat
